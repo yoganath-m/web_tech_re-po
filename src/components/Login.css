@@ -1,0 +1,97 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #070707;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .login-box h1 {
+    font-size: 2em;
+    color: #03491c;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-box input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .login-box button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #014e2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-box a {
+    color: #1db954;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .divider {
+    margin: 20px 0;
+    font-size: 0.8em;
+    color: #aaa;
+  }
+  
+  .facebook-btn,
+  .google-btn,
+  .apple-btn {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: rgb(12, 60, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .facebook-btn {
+    background-color: #00236f;
+  }
+  
+  .google-btn {
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  .apple-btn {
+    background-color: #000000;
+  }
+  /* src/Login.css */
+.link-button {
+    background: none;
+    color: #010101;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  .link-button:hover {
+    text-decoration: none;
+  }
+  
+  
